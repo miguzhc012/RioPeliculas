@@ -1,0 +1,21 @@
+.card{
+    background-color: rgb(126, 126, 126);
+}
+.card, .card a{
+    color: rgb(0, 0, 0);
+        
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    gap: 5px;
+    min-width: 720px;
+}
+@media (max-width: 760px){
+    .card{
+        flex-direction: column;
+    }}

@@ -1,0 +1,19 @@
+.sep{
+    padding: 0.1px;
+    background-color: red;
+    margin-bottom: 30px;
+}
+.title {
+    display: grid;
+    flex-direction: column;
+    padding: 50px;
+}
+strong{
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+.subtitle{
+    text-align: center;
+    font-size: 14px;
+}

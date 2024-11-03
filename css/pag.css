@@ -1,0 +1,9 @@
+.pagamento{
+    margin-top: 10px;
+    display: grid;
+    margin-left: 38%;
+    justify-items: center;
+    border: solid 2px black;
+    margin-bottom: 10px;
+    width: 40vh;
+}
