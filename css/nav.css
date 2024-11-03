@@ -25,6 +25,9 @@
     
     
 }
+#principal{
+    color: red;
+}
 .link:hover{
     color: red;
 }
