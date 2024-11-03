@@ -3,7 +3,10 @@
 }
 .card, .card a{
     color: rgb(0, 0, 0);
-        
+    text-decoration: none;
+}
+.card a:hover{
+    color: red;
 }
 .card-container{
     display: flex;

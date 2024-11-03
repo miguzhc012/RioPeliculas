@@ -4,3 +4,9 @@
 @import url(./card.css);
 @import url(./coment.css);
 @import url(./pag.css);
+
+#seta{
+    display: grid;
+    justify-content: flex-end;
+    
+}

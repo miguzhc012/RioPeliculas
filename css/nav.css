@@ -17,12 +17,12 @@
     margin-left: 50px;
     width: 145px;
 }
-#home {
-    color: red;
-}
+
 .link {
     font-size: 20px;
     color: black;
+    padding: 0px;
+    
     
 }
 .link:hover{
@@ -49,4 +49,9 @@
     background-color: #808080;
     cursor: pointer;
     color: red;
+    margin-left: 5px;
+    width: max-content;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
 }
