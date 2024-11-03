@@ -17,5 +17,28 @@
 }
 @media (max-width: 760px){
     .card{
-        flex-direction: column;
-    }}
+        background-color: rgb(126, 126, 126);
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-height: min-content;
+    }
+    .card, .card a{
+        color: rgb(0, 0, 0);
+            
+    }
+    .container{
+        max-width: 500px;
+        
+    }
+        .card{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 90px;
+            gap: 5px;
+            min-width: 720px;
+            max-width: 5%;
+        }}
