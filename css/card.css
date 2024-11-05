@@ -18,6 +18,9 @@
     gap: 5px;
     min-width: 720px;
 }
+#card-link {
+    margin-top: 180px;
+}
 @media (max-width: 760px){
     .card{
         background-color: rgb(126, 126, 126);
@@ -26,22 +29,19 @@
         width: 100%;
         max-height: min-content;
     }
-    .card, .card a{
-        color: rgb(0, 0, 0);
-            
+    .card img{
+        max-width: 720px;
     }
-    .container{
-        max-width: 500px;
-        
-    }
-        .card{
-            display: flex;
-            flex-wrap: wrap;
-            align-items: flex-start;
-            justify-content: center;
-            margin-top: 20px;
-            margin-bottom: 90px;
-            gap: 5px;
-            min-width: 720px;
-            max-width: 5%;
-        }}
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 90px;
+        gap: 5px;
+        min-width: 720px;
+        max-width: 5%;}
+    #card-link{
+        margin-top: 500px;
+    }}

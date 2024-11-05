@@ -27,10 +27,12 @@ a {
     text-decoration: underline;
 }
 @media (max-width: 720){
-    section{
+    section,
+    nav{
         display: flex;
         justify-content: center;
         flex-direction: column;
         max-width: 720px;
+        min-width: 200px;
     }
 }
